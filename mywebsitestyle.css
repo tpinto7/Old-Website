@@ -43,7 +43,6 @@ button {
   background-color: #b91a2e;
   border: 2px solid #b91a2e;
   border-radius: 12px;
-  color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -54,8 +53,7 @@ button {
 }
 
 button:hover {
-  background-color: white; /* Green */
-  color: white;
+  background-color: #eaaeae; /* Green */
 }
 
 a {
