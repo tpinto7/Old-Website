@@ -39,17 +39,23 @@ header {
     min-height: 100vh;
 }
 
-.button {
+button {
   background-color: #4CAF50; /* Green */
-  border: none;
+  border: #4CAF50;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;   
 }
 
+button:hover {
+  background-color: white; /* Green */
+  color: white;
+}
 .nametitle p {
     font-weight: normal;
     letter-spacing: 0.2em;
