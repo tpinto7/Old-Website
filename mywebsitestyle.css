@@ -4,12 +4,12 @@ html {
     background-color: burlywood;
     background-image: url(background.jpg);
     margin: 50px auto;
-    text-align: center;
 }
 
 body {   
   color: whitesmoke;
   width:  500px; 
+  text-align: center;
 }
 
 h1 {
@@ -23,6 +23,8 @@ p, li {
 }
 
 .aboutme{
+    height: 100%
+    text-align: center;
     background-color: magenta;
     color: #fff;
     font-size: 20px;
