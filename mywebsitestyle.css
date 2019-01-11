@@ -3,6 +3,8 @@ html {
     font-family: 'Open Sans' sans-serif;
     background-color: burlywood;
     background-image: url(background.jpg);
+    width: 100%;
+    height: 100%;
     margin: 50px auto;
 }
 
