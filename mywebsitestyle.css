@@ -35,7 +35,6 @@ header {
     height: 100%;
     background-size: auto;
     transform-origin: center center 0;
-    transform: translateZ(-1px) scale(2);
     z-index: -100;
     min-height: 100vh;
 }
@@ -46,22 +45,17 @@ header {
     text-align: center;
     margin: 0;
     padding: 0, 0;
-    border-right: rgba(255, 255, 255, 0.75);
     position: relative;
     top: 50%;
     width: 34em;
-    margin: 1em auto;
-    border-right: 2.5px solid rgba(255, 255, 255, 0.75);
     font-size: 110%;
-    text-align: center;
-    white-space: nowrap;
     overflow: hidden; transform: translateY(-20%);
     height = 100%;
 }
 
 .aboutme {
     text-align: center;
-    background-color: #FFF;
+    background-color: #000;
     height: 100%;
 }
 .aboutme h2 {
