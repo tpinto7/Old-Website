@@ -40,8 +40,9 @@ header {
 }
 
 button {
-  background-color: #4CAF50; /* Green */
-  border: #4CAF50;
+  background-color: #b1a0bb; /* Green */
+  border: 2px solid ##b1a0bb;
+  border-radius: 12px;
   color: white;
   padding: 15px 32px;
   text-align: center;
