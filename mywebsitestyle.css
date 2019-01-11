@@ -57,6 +57,12 @@ button:hover {
   background-color: white; /* Green */
   color: white;
 }
+
+a {
+    color: white;
+    text-decoration-line: none;
+}
+
 .nametitle p {
     font-weight: normal;
     letter-spacing: 0.2em;
