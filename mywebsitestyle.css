@@ -2,6 +2,7 @@ html {
     min-height: 100%;
     overflow: hidden;
     height: 100%;
+ 
 }
 
 body {
@@ -15,6 +16,10 @@ body {
     overflow-y: scroll;
     overflow-x: scroll;
     font-family: "Luna", sans-serif;
+}
+
+.mainbody {
+    height: 100%;
 }
 
 header {
@@ -39,6 +44,19 @@ header {
     min-height: 100vh;
 }
 
+.myname {
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.myschool {
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+}
+
+
 button {
   background-color: #b91a2e;
   border: 2px solid #b91a2e;
@@ -49,9 +67,17 @@ button {
   display: inline-block;
   font-size: 16px;
   -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;   
+  transition-duration: 0.4s;  
+  margin: 5px; 
 }
 
+.right {
+    float: right;
+}
+
+.nametitle {
+    color: #f15e54;
+}
 button:hover {
   background-color: #eaaeae; /* Green */
 }
@@ -61,23 +87,10 @@ a {
     text-decoration: none;
 }
 
-.nametitle p {
-    font-weight: normal;
-    letter-spacing: 0.2em;
-    text-align: center;
-    margin: 0;
-    padding: 0, 0;
-    position: relative;
-    top: 50%;
-    width: 34em;
-    font-size: 110%;
-    overflow: hidden; transform: translateY(-20%);
-    height = 100%;
-}
-/*
+
 .aboutme {
     text-align: center;
-    background-color: #000;
+    background-color:#e66d4e;
     height: 100%;
 }
 .aboutme h2 {
@@ -92,4 +105,4 @@ a {
     padding-right: 35px;
     padding-left: 35px;
     font-size: 20px;
-}*/
+}
