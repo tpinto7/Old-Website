@@ -3,22 +3,30 @@ html {
     font-family: 'Open Sans' sans-serif;
     background-color: burlywood;
     background-image: url(background.jpg);
+    margin: 50px auto;
+    text-align: center;
 }
 
 body {   
   color: whitesmoke;
-  width:  500px;
-  margin: 50px auto;
- 
+  width:  500px; 
 }
 
 h1 {
     font-size: 60px;
-    text-align: center;
 }
 
 p, li {
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px; 
+}
+
+.aboutme{
+    background-color: magenta;
+    color: #fff;
+    font-size: 20px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 20px;
 }
