@@ -10,7 +10,6 @@ html {
 
 body {   
   color: whitesmoke;
-  width:  500px; 
   text-align: center;
 }
 
@@ -25,7 +24,6 @@ p, li {
 }
 
 .aboutme{
-    height: 100%
     text-align: center;
     background-color: magenta;
     color: #fff;
