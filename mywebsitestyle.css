@@ -7,11 +7,11 @@ html {
 
 body {
     color: #fff;
-    margin: 0;
+    background-color:#e66d4e;
+    margin: auto;
     padding: 0;
     perspective: 1px;
     transform-style: preserve-3d;
-    background-image: url(background.jpg);
     height: 100%;
     overflow-y: scroll;
     overflow-x: scroll;
@@ -19,6 +19,7 @@ body {
 }
 
 .mainbody {
+    background-image: url(background.jpg);
     height: 100%;
 }
 
@@ -75,6 +76,10 @@ button {
     float: right;
 }
 
+.left {
+    float: left;
+}
+
 .nametitle {
     color: #f15e54;
 }
@@ -88,21 +93,82 @@ a {
 }
 
 
-.aboutme {
-    text-align: center;
-    background-color:#e66d4e;
-    height: 100%;
+.purplebox {
+    margin: auto;
+    background-color:#946982;
+    height: 107%;
+    padding-bottom: 0px;
+    float: center;
+    width: 800px;
 }
-.aboutme h2 {
+.aboutme{
+    height: 107%
+}
+.purplebox h2 {
     color: #fff;
     font-family: 'MontSerrat', sans-serif;
     padding-top: 20px;
+    font-size: 30px;
+    text-align: center;
 }
-.aboutme p {
+
+.purplebox h3 {
+    color: #fff;
+    font-family: 'MontSerrat', sans-serif;
+    font-style: italic;
+    padding-top: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.purplebox p {
     color: #fff;
     font-family: 'Work Sans', sans-serif;
     z-index: 0;
     padding-right: 35px;
     padding-left: 35px;
     font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.projects p{
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    line-height: 24px;
+}
+
+.projects{
+    height: 230%;
+}
+
+/*.interestbackground {
+    width: 500px;
+    height: 25%;
+    background-image: linear-gradient(#e66d4e,yellow);
+}*/
+
+.box-img {
+    border-radius: 10%;
+    width: 25px;
+    height: 25px;
+}
+
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+    padding-right: 50px;
+
+}
+
+img.smallimg:hover{
+    width:50px;
+    height:auto;
+    opacity: 0.4;
+    transition-duration: 1s;
+}
+
+.linkedin:hover {
+    color: #0077B5;
 }
