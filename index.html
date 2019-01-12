@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8">
     <title>Tyler Pinto</title>
-    <link href="mywebsitestyle.css" rel="stylesheet" type="text/css">
+    <link href="websitestyle.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <div class="mainbody">
-    <button><a href="index.html">Home</a></button>
+    <button class=><a href="website.html">Home</a></button>
       <div class="right">
         <button><a href="interests.html"> Interests </a></button>
         <button><a href="blog.html"> Blog </a></button>
@@ -18,13 +18,84 @@
       <p class="myschool"> University Of Waterloo | Biomedical Engineering </p>   
       </div>
     </div>
-    <div class="aboutme">
-      <h2>ABOUT ME</h2>
+    <div class="aboutme purplebox">
+      <center><h2><b>ABOUT ME</b></h2>
       <p>Hey! Thanks for coming to my website! I am a self-motivated, dedicated biomedical engineering student at the University Of Waterloo.
-        I am deeply fascinated by human and artificial systems, as well as the interaction between the two. I aspire to carry this passion into
-        making a lasting impact on the biomedical/software industry. </p>
+          I am deeply fascinated by human and artificial systems, as well as the interaction between the two. I aspire to carry this passion into
+          making a lasting impact on the biomedical/software industry. </p>
+        
+      <p>In my free time I enjoy playing soccer, making video games, and learning new things. Feel free to scroll down to view my interests and projects, or check out my blog!</p>
+      <p></p>
+      <button><a href="resume.pdf">Resume</a></button>
+      </center>
+      <center class="box">
+      <p></p>
+      <ul>
       
-      <p>In my free time I enjoy playing soccer, making video games, and learning new things. Feel free to scroll down to view my interests and projects, or check out my blog!
+      <li>
+      <a href="https://www.facebook.com/tyler.pinto.3">
+        <img class="smallimg" src="facebook.png" alt="Facebook" width="65" height ="65" class="Facebook">
+      </a></li>  
+      <li>
+      <a href="https://www.linkedin.com/in/tylerpinto/">
+        <img class="smallimg" src="linkedin.png" alt="Linkedin" width ="65" height="60" class="linkedin">
+      </a></li>
+      <li>
+      <a href="https://github.com/tpinto7">
+        <img class="smallimg" src="github.png" alt="Github" width ="65" height="65">
+      </a></li>
+
+      <li>
+      <a href="mailto:tjpinto@uwaterloo.ca">
+        <img class="smallimg" src="email.png" alt="Email" width ="65" height="65">
+      </a></li>
+      </ul>
+      </center>
+
     </div>
+    <div class="projects purplebox">
+      <h2>PROJECTS & USEFUL EXPERIENCE</h2>
+      <h3>BlackJack Game With AI - C#</h3>
+      <p>Recreated the popular betting game into a console, text-based simulator with a smart AI that maximizes its odds of winning. Allows for up to 8 players, human or computer, to challenge the dealer
+      I created two levels of AI for this game. The first follows conventional rules for when to hit, 
+      double, or bust, based on its hand and the dealer's up-card. The second meticulously considers all possible hand combinations with respect to the remaining cards in the deck. Based on this, it
+      determines the likelihood of each possible outcome for the dealer's hand and generates its ratio of winning if it passes or hits. Implemented data structures such as lists to represent the card deck, 
+      enumerated types, and inheritance. </p>
+    
+      <h3>Pokemon Generation 1 Battle Simulator - C#</h3>
+      <p>Driven by nostalgia to create a console based representation of the original Pokemon game. Extensively followed generation 1 battle mechanics to replicate battle conditions
+        in Pokemon Red/Blue/Yellow. Utilized abstraction, inheritance, and intricate control flow to create over 50 unique Pokemon and 100 moves. Features include Pokemon dual types,
+        move types, status impairments (poisoned, paralyzed, etc.), multi-move attacks, and temporary stat multipliers. Players can battle with up to 6 Pokemon each, which can be
+        personally selected or assigned randomly.
+      </p>
+
+      <h3>"StressLess Dining Chair" for Children With ADHD</h3>
+      <p>With my group of 4 other team members, went through the entire design process to prototype
+        and build a functional chair aimed to alleviate family stress by reducing potential outbursts of children with 
+        ADHD. ADHD is a particularly devastating mental disease for a child because it can directly affect everyone surrounding it.
+        Consequently, my group sought to provide a solution at the dinner table, often symbolic of a harmonic family, to promote social interacitons 
+        between the afflicted child and its family. During this process, we collaboratively worked through multiple concept generations 
+        to create an ergonomic product.
+      </p>
+      
+      <h3>Seller on Amazon</h3>
+      <p> Although not directly related to the engineering or software world, I learnt many translatable skills as a seller for Everything 2 Connect.
+        I was responsible for creating listings and promoting them with search engine optimization (seo) as well as running advertising campaigns. 
+        Additionally, I collected, packaged and shipped the products to Amazon's fulfillable warehouse and/or to the customer's address. This was an 
+        extremely valuable position because it highlighted to me the importance of customer service, the process of building a brand reputation, and the 
+        grind required to create a successful company.
+      </p>
+
+      <h3>Treasurer - Student Council</h3>
+      <p> As the financial representative, I used Microsoft Excel to record and analyze all cash flow and transactions 
+        throughout the school year. Moreover, I was responsible for uploading these events on my school's accounting system and complete 
+        forms for petty cash funds and record of sales. This position was a great opportunity for me to demonstrate leadership in really making 
+        a difference on the lives of my fellow students. I was also able to attend many great events, such as a Leadership Conference headlined by 
+        formed VP Joe Biden.
+      </p>
+      <p>You can also find other snippets of code I have made on my GitHub.</p> 
+    </div>
+    
+   
    </body>
 </html>
