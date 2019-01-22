@@ -97,7 +97,7 @@ a {
 .purplebox {
     margin: auto;
     background-color:#946982;
-    height: fit-content;
+    border-radius: 20px;
     width: 60%;
     padding-left: 2%;
     padding-right: 2.5%;
