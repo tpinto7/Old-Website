@@ -98,6 +98,7 @@ a {
     margin: auto;
     background-color:#946982;
     border-radius: 20px;
+    min-height: max-content;
     width: 60%;
     padding-left: 2%;
     padding-right: 2.5%;
