@@ -57,7 +57,6 @@ header {
     font-style: italic;
 }
 
-
 button {
   background-color: #b91a2e;
   border: 2px solid #b91a2e;
@@ -65,7 +64,6 @@ button {
   padding: 15px 32px;
   text-align: right;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;  
@@ -84,7 +82,7 @@ button {
     color: #f15e54;
 }
 button:hover {
-  background-color: #eaaeae; /* Green */
+  background-color: #eaaeae; 
 }
 
 a {
@@ -92,14 +90,19 @@ a {
     text-decoration: none;
 }
 
+.orange {
+    color: #eaaeae;
+}
 
 .purplebox {
     margin: auto;
     background-color:#946982;
-    height: 107%;
-    padding-bottom: 0px;
+    min-height: fit-content;
+    width: 60%;
+    padding-left: 2%;
+    padding-right: 2.5%;
+    padding-bottom: 20px;
     float: center;
-    width: 800px;
 }
 .aboutme{
     height: 107%
@@ -167,8 +170,37 @@ img.smallimg:hover{
     height:auto;
     opacity: 0.4;
     transition-duration: 1s;
+    color: #0077B5;
 }
 
 .linkedin:hover {
     color: #0077B5;
+}
+
+.facts{
+    display: none;
+}
+.true{
+    align-content: flex-end;
+
+}
+
+.fade{
+    animation: fade 6s linear;
+}
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+h4 {
+    margin-top: -10px;
+    padding-top: 0;
+    text-align: center;
+    font-style: italic;
 }
