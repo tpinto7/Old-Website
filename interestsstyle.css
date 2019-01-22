@@ -34,8 +34,7 @@ p {
     text-align: center;
     position: absolute;
     width: 20%;
-    padding-top: 100px;
-    color: #fff;
+    padding-top: 0px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -44,10 +43,9 @@ p {
     text-align: center;
     position: absolute;
     width: 20%;
-    padding-top: 50px;
-    color: #fff;
+    padding-top: 20px;
     font-family: 'Work Sans', sans-serif;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .slider {
@@ -72,9 +70,21 @@ p {
     width: 500%;
     margin: 0;
     left: 0;
+    top: -50px;
     animation: 40s slidey infinite;
 }
 
+.black {
+    color: black;
+}
+
+.gold {
+    color: goldenrod;
+}
+
+.white {
+    color: white;
+}
 .fadepic {
     animation-name: fadepic;
     animation-duration: 4s;
